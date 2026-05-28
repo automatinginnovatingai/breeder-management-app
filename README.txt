@@ -108,11 +108,13 @@ System Requirements
 
 License Activation
 ------------------
-This app requires a valid Gumroad license key to unlock full functionality.
-• You will be prompted to enter your license key on first launch.
-• The app verifies your key securely via Gumroad’s API.
-• If the license is invalid or revoked, access will be restricted.
-Note: Internet access is required for initial license validation.
+A valid Stripe subscription is required to use this application.
+
+• On first launch, the app checks your subscription status securely through Stripe.
+• If your subscription is active, the app unlocks full access.
+• If your subscription is canceled, expired, or unpaid, access is restricted.
+• Internet is required only during subscription verification and plan changes.
+• All billing and upgrades are handled through Stripe’s secure checkout.
 
 Getting Started
 ---------------
